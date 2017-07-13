@@ -5,6 +5,7 @@ include_once './Connect.php';
 $obj=new Connect();
 $conn= $obj->connect();
 $errors=array();
+$_POST['post_it']=1;
 if(isset($_POST['post_it'])){
 	if(empty($_POST['postdata']))
 		array_push($errors, "Nothing To Post");
@@ -17,6 +18,8 @@ if(isset($_POST['post_it'])){
 	 }
 }
 
+$_POST['userid']=1;
+$_POST['get_post']=1;
 if(isset($_POST['get_post'])){  ///set this when clicked on the post
 	$response;
 	$userid=$_POST['userid'];

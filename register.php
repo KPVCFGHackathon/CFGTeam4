@@ -43,7 +43,7 @@
           <button type="submit" name="register" class="button button-block">Register</button>
           <p>
           	Already a Member? <a href="login.php">Login</a>
-            <a href="LINK TO MAIN PAGE HERE">Go Anonymous</a>
+            <a href="post.php">Go Anonymous</a>
           </p>
           
           </form>

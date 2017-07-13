@@ -6,6 +6,7 @@ $obj=new Connect();
 $conn= $obj->connect();
 $errors=array();
 
+$_POST['comment_it']=1;
 if(isset($_POST['comment_it'])){
 	// if(empty($_POST['commentdata']))
 	// 	array_push($errors, "Nothing To Comment");
@@ -19,6 +20,8 @@ if(isset($_POST['comment_it'])){
 	 }
 }
 
+$_POST['postid']=3;
+$_POST['postdata']="Sample post";
 if(isset($_POST['submit'])){
 	$response;
 	$postid=$_POST['postid'];
