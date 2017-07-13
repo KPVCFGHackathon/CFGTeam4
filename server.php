@@ -26,7 +26,7 @@ if(isset($_POST['register'])){
 
 		$_SESSION["username"]=$_POST["username"];
 		$_SESSION["success"]="LOG IN SUCCESSFUL";
-		header('Location:sample.php');
+		header('Location:USER MAIN PAGE');
 	}
 }
 
@@ -42,7 +42,7 @@ if(isset($_POST['login'])){
 		if(count($result)==1){
 			$_SESSION['username']=$_POST['username'];
 			$_SESSION['success']="LOG IN SUCCESSFUL";
-			header('Location:sample.php');
+			header('Location:USER MAIN PAGE');
 
 		}
 		else{

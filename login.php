@@ -29,6 +29,7 @@
           <button type="submit" name="login" class="button button-block">Log in</button>
           <p>
           	Haven't Registered Yet ? <a href="register.php">Sign Up</a>
+            <a href="LINK TO MAIN PAGE HERE">Go Anonymous </a>
           </p>
           </form>
 </div>
